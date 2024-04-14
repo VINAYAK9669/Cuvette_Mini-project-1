@@ -1,7 +1,7 @@
 # Cuvette Mini Project 1 [Desktop Design]
 
 ## Description
-I have created a website based on the provided Figma design. This project utilizes HTML and CSS technologies.
+This mini project, assigned by Cuvette, focuses on desktop design implementation utilizing HTML and CSS. The goal is to refine and enhance the user interface for desktop devices.
 
 ## Tech Stacks
 - HTML
