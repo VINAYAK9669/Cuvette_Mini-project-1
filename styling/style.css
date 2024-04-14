@@ -27,7 +27,6 @@
   padding: 1rem 7rem 1rem 7rem;
 }
 body {
-  min-height: 100dvh;
   max-width: 100dvw;
   display: flex;
   justify-content: center;
@@ -52,7 +51,7 @@ body {
   flex-direction: column;
   gap: 2rem;
   padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-bottom: 1rem;
 }
 #left_side h1 {
   font-size: 36px;
@@ -113,9 +112,10 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .top #right_side img {
-  max-width: 575px;
+  width: 100%;
 }
 
 footer {
@@ -123,8 +123,9 @@ footer {
   align-items: center;
   justify-content: space-between;
   background-color: var(--text-black);
-  padding: 2rem 10rem 2rem 10rem;
+  padding: 2rem 10rem 3rem 10rem;
   color: var(--text-white);
+  margin-top: -3rem;
 }
 footer .right_side ul li {
   text-align: right;
